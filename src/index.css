@@ -2268,6 +2268,8 @@ footer svg {
     top: 8px;
     width: calc(100% - 16px);
     height: 58px;
+    justify-content: space-between;
+    gap: 10px;
   }
 
   .topbar.scrolled {
@@ -2275,8 +2277,17 @@ footer svg {
     height: 54px;
   }
 
+  .brand {
+    margin-left: auto;
+  }
+
   .brand small {
     display: none;
+  }
+
+  .top-actions {
+    order: -1;
+    margin-right: auto;
   }
 
   .nav {

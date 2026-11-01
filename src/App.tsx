@@ -592,10 +592,6 @@ export default function App() {
       <main>
         <section id="home" className="hero">
           <div className="hero-copy">
-            <div className="eyebrow">
-              <Sparkles size={15} /> Welcome to my personal corner of the
-              internet
-            </div>
             <h1>
               Hi, I’m <span>Trixy.</span>
             </h1>
@@ -639,7 +635,7 @@ export default function App() {
               />
             </div>
             <div className="mascot-label">
-              <Leaf size={14} /> powered by wasabi
+              <Leaf size={14} /> powered by wasabi ( ◡̀  ̫ ◡́) ✧
             </div>
           </div>
         </section>
